@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Category"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/txt_explore_category"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="See All"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/colorTextLink"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.okeko.ekopranotodarmo.proyekmdp.SquareImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="2dp"
+            android:id="@+id/explore_image_0"/>
+
+        <com.okeko.ekopranotodarmo.proyekmdp.SquareImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="2dp"
+            android:id="@+id/explore_image_1"/>
+
+        <com.okeko.ekopranotodarmo.proyekmdp.SquareImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="2dp"
+            android:id="@+id/explore_image_2"/>
+
+        <com.okeko.ekopranotodarmo.proyekmdp.SquareImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:id="@+id/explore_image_3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
